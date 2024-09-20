@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkBBCkJAQRBCQEECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJAQQpCQEF6QkBB2kJAQf9CQEH/QkBB8kJAQa5CQEE2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJAQShCQEHUQkBBmEJAQTxCQEEYQkBBIkJAQV5CQEHOQkBB/EJAQYJCQEEAAAAAAAAAAAAAAAAAAAAAAAAAAABCQEGGQkBBNAAAAAAAAAAAc7YrLHO2K1QAAAAAQkBBBEJAQZhCQEH/QkBBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc7YrBHO2K3Rztiu6c7YrCAAAAABCQEECQkBBwkJAQfpCQEEqAAAAAAAAAABCQEEYQkBBEgAAAAAAAAAAc7YrPnO2K+Bztiv/c7Yr/HO2K+ZztisqAAAAAEJAQURCQEH/QkBBlgAAAAAAAAAAQkBBqEJAQZgAAAAAAAAAAHO2K0RztiuMc7YrFnO2Kwxztivmc7YrjAAAAABCQEEEQkBB9kJAQdoAAAAAQkBBPEJAQf9CQEH8QkBBLgAAAAAAAAAAc7YrCHO2K1pztiuwc7Yr/3O2K1oAAAAAQkBBdEJAQfhCQEH8QkBBgEJAQYBCQEH6QkBB+EJAQXQAAAAAc7YrCHO2K9Zztiv0c7YrqHO2K0gAAAAAAAAAAEJAQS5CQEH6QkBB/0JAQTwAAAAAQkBB2kJAQfZCQEEEAAAAAHO2KzBztiv/c7YrTnO2KwJztitEc7YrEAAAAAAAAAAAQkBBmEJAQagAAAAAAAAAAEJAQZZCQEH/QkBBRAAAAABztisGc7YrynO2K/Zztivwc7Yr/HO2K1IAAAAAAAAAAEJAQRJCQEEYAAAAAAAAAABCQEEqQkBB+kJAQcJCQEECAAAAAHO2KwRztit8c7YrwnO2Kx4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJAQX5CQEH/QkBBmEJAQQQAAAAAc7YrKnO2K1QAAAAAAAAAAEJAQTRCQEGGAAAAAAAAAAAAAAAAAAAAAAAAAABCQEEAQkBBgkJAQfxCQEHOQkBBXkJAQSJCQEEYQkBBPEJAQZhCQEHUQkBBKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCQEE2QkBBrkJAQfJCQEH/QkBB/0JAQdpCQEF6QkBBCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCQEECQkBBEEJAQQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPwfAADzxwAA7+MAAP9zAAD8OQAAnZkAAJ84AAAceQAAnfkAAJw/AADPfwAA5/cAAOPPAAD4PwAA//8AAA==" rel="icon" type="image/x-icon" />
+</head>
+<body>
+
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount">
+                <p>Enter amount</p>
+                <input value="100" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                <p>From</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="flag pic">
+                    <select name="from" id="">
+                    </select>
+                </div>
+            </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/PK/flat/64.png" alt="flag-pic">
+                    <select name="to" id="">
+                    </select>
+                </div>
+            </div>
+            </div>
+            <div class="exchange-rate">1 USD = 300 Pkr</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src = "codes.js"></script>
+    <script src = "script.js"></script>
+  
+</body>
+</html>
